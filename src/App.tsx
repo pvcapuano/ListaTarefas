@@ -1,12 +1,16 @@
 
 import React from "react"
-import { Container } from "./App.styles"
+import { Container, Area, Header } from "./App.styles"
 
 const App = () => {
   return(
-    <>
-      <Container> Olá kkkk </Container>
-    </>
+    
+      <Container> 
+        <Area> 
+          <Header> Lista de tarefas </Header>
+        </Area>
+       </Container>
+    
   )
 }
 
