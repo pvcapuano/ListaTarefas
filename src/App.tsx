@@ -1,10 +1,13 @@
-import * as React from 'react'
-import './App.css'
 
-export default function App() {
-  return (
-    <main>
-      React⚛️ + Vite⚡ + Replit🌀
-    </main>
+import React from "react"
+import { Container } from "./App.styles"
+
+const App = () => {
+  return(
+    <>
+      <Container> Olá kkkk </Container>
+    </>
   )
 }
+
+export default App
