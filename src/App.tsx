@@ -4,6 +4,7 @@ import { Item } from "./types/Item"
 import { Container, Area, Header } from "./App.styles"
 import { ListItem } from "./components/ListItem"
 
+
 const App = () => {
 
   const [ list, setList ] = useState<Item[]>([
@@ -17,7 +18,7 @@ const App = () => {
           <Header> Lista de compras </Header>
 
           {list.map((item, index) => (
-            <div>{item.name}</div>
+            <ListItem key={index} item={item} />
           ))}
 
         </Area>
