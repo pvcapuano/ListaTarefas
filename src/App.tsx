@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from "react"
 import { Item } from "./types/Item"
 import { Container, Area, Header } from "./App.styles"
+import { ListItem } from "./components/ListItem"
 
 const App = () => {
 
@@ -13,11 +14,11 @@ const App = () => {
     
       <Container> 
         <Area> 
-          <Header> Lista de tarefas </Header>
+          <Header> Lista de compras </Header>
 
-          {list.map((item, index) => {
-
-          })}
+          {list.map((item, index) => (
+            <div>{item.name}</div>
+          ))}
 
         </Area>
        </Container>
