@@ -3,6 +3,7 @@ import { useState } from "react"
 import { Item } from "./types/Item"
 import { Container, Area, Header } from "./App.styles"
 import { ListItem } from "./components/ListItem"
+import { AddArea } from "./components/AddArea"
 
 
 const App = () => {
@@ -16,6 +17,8 @@ const App = () => {
       <Container> 
         <Area> 
           <Header> Lista de compras </Header>
+
+          <AddArea />
 
           {list.map((item, index) => (
             <ListItem key={index} item={item} />
