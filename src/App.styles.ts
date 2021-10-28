@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const Area = styled.div`
   margin: auto;
   max-width: 980px;
-  padding: 10px;
+  padding: 15px;
 `;
 
 export const Header = styled.div`
@@ -18,7 +18,7 @@ export const Header = styled.div`
   color: #FFF;
   text-align: center;
   border-bottom: 1px solid #444;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 `;
 
 
